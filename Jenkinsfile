@@ -13,7 +13,7 @@
         }
         stage('unit test maven'){
             steps{
-                scrpit{
+                script{
                     mvnTest()
                 }
             }
