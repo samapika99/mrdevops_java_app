@@ -11,5 +11,12 @@
             )
             }
         }
+        stage('unit test maven'){
+            steps{
+                scrpit{
+                    mvnTest()
+                }
+            }
+        }
     }
 }           
